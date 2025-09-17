@@ -1,4 +1,9 @@
 public class ExemplosDeConstrutores {
+
+    static {
+        System.out.println("Inicializando");
+    }
+
     public ExemplosDeConstrutores() {
         System.out.println("Construtor padrão Criado");
     }
